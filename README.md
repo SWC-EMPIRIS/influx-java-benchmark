@@ -32,3 +32,12 @@
     ```sh
     mvn exec:java -Dexec.mainClass="InfluxDB.BenchmarkInfluxDB" -Dexec.args="NUMBER_THREADS= NUMBER_REQUESTS_PER_THREAD= NUMBER_OF_DATASETS= INIT=true WRITE_RATIO= READ_RATIO= TIME_RANGE_START_MINUTES= TIME_RANGE_END_MINUTES= INFLUX_DATA_PATH= INFLUX_TOKEN= ORG_ID= INFLUX_ORG= HOST_URL="
     ```
+
+# Benchmark Data
+
+The benchmark data can be accessed on the target machine after execution.
+
+Use the following URL:
+```
+http://localhost:8001/data.csv
+```
