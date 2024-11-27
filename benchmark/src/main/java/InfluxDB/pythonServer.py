@@ -7,7 +7,7 @@ print("cd:", os.getcwd())
 class CustomHandler(SimpleHTTPRequestHandler):
     def do_GET(self):
         if self.path == '/stop':
-            print("Server wird beendet...")
+            print("Server stopping...")
             threading.Thread(target=self.server.shutdown).start()
             self.send_response(200)
             self.end_headers()
