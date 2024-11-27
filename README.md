@@ -41,3 +41,8 @@ Use the following URL:
 ```
 http://localhost:8001/data.csv
 ```
+Use the following URL to stop the server:
+```
+http://localhost:8001/stop
+```
+
